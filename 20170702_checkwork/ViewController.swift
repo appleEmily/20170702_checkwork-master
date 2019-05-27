@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var countLabel: UILabel!
-    var number = 0
+    @IBOutlet var countLabel: UILabel!
+    var number: Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -33,4 +33,7 @@ class ViewController: UIViewController {
     }
     
 }
+
+//コマンドAで全選択してcオントロールYでコードを綺麗に！
+//labelの関連付け
 
